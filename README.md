@@ -40,3 +40,12 @@ sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools
 ```
 Modify ~/.zshrc file to include plugin=(git aws) ZSH_THEME="(yet to select fav)"
 Modify ~/.bashrc at end write ``` exec zsh ```
+
+
+# aws setup
+```
+curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+unzip awscliv2.zip
+sudo ./aws/install
+```
+
