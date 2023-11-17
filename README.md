@@ -5,22 +5,38 @@ sudo apt update
 
 # github desktop
 ```
-sudo wget https://github.com/shiftkey/desktop/releases/download/release-3.1.1-linux1/GitHubDesktop-linux-3.1.1-linux1.deb
-sudo apt-get install gdebi-core 
-sudo gdebi GitHubDesktop-linux-3.1.1-linux1.deb
+sudo wget https://github.com/shiftkey/desktop/releases/download/release-3.1.1-linux1/GitHubDesktop-linux-3.1.1-linux1.deb 
+sudo apt-get install gdebi-core -y
+sudo gdebi GitHubDesktop-linux-3.1.1-linux1.deb -y
 ```
 
 # slack
 ```
-sudo gdebi GitHubDesktop-linux-3.1.1-linux1.deb
+sudo gdebi GitHubDesktop-linux-3.1.1-linux1.deb -y
 ```
 
 # vscode
 ```
-sudo gdebi GitHubDesktop-linux-3.1.1-linux1.deb
+sudo gdebi GitHubDesktop-linux-3.1.1-linux1.deb -y
 ```
 
 # git 
 ```
-sudo apt install git
+sudo apt install git -y
 ```
+
+# nodejs
+```
+sudo apt install nodejs -y
+sudo apt install npm -y
+npm install --global yarn 
+```
+
+# zsh + oh-my-zsh
+```
+sudo apt install zsh -y
+chsh -s $(which zsh)
+sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
+Modify ~/.zshrc file to include plugin=(git aws) ZSH_THEME="(yet to select fav)"
+Modify ~/.bashrc at end write ``` exec zsh ```
