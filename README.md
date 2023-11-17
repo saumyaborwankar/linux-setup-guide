@@ -1,5 +1,7 @@
 # linux-setup-guide
+```
 sudo apt update
+```
 
 # github desktop
 ```
@@ -12,6 +14,7 @@ sudo gdebi GitHubDesktop-linux-3.1.1-linux1.deb
 ```
 sudo gdebi GitHubDesktop-linux-3.1.1-linux1.deb
 ```
+
 # vscode
 ```
 sudo gdebi GitHubDesktop-linux-3.1.1-linux1.deb
