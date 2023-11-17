@@ -27,7 +27,7 @@ sudo apt install git -y
 
 # nodejs
 ```
-sudo apt install nodejs -y
+sudo snap install node --classic --channel=18
 sudo apt install npm -y
 npm install --global yarn 
 ```
