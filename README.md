@@ -27,9 +27,8 @@ sudo apt install git -y
 
 # nodejs
 ```
-sudo snap install node --classic --channel=18
-sudo apt install npm -y
-npm install --global yarn 
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.6/install.sh | bash
+nvm install --lts
 ```
 
 # zsh + oh-my-zsh
